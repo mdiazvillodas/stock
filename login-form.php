@@ -7,6 +7,7 @@
         
 	<script type="text/javascript" src="./js/mootools.js"></script>
 	<script type="text/javascript" src="./js/mootools-more.js"></script>
+	<script type="text/javascript" src="./js/funcioneslogin.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,7 +33,7 @@
 	</script>
     </head>
 <body style="background: url(../stock/img/wallpaperlogins.jpg); background-size:cover;">
-  <img src="./img/wallpaperlogin.jpg"  style="position: absolute; width: 100%; height: 100%;"/>
+  <img src="./img/wallpaperlogin.jpg"  style="position: absolute; width: 100%; height: 100%; z-index:-1;"/>
 <div id="login">
   <form id="loginForm" name="loginForm" method="post" action="login-exec.php">
     <div class="container">
@@ -70,6 +71,12 @@
       </div>
     </div>
   </form>
+  <div style="right:0; z-index:1000;" id="info">
+  </div>
+  <div class="controls">
+        <div class="red" id="cerrar"><</div>
+        <div class="green" id="abrir">></div>
+  </div>
 </div>
 </body>
 </html>

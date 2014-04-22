@@ -1,4 +1,4 @@
-var tagged1tagged2,tagged3,tagged4,publi;
+var tagged1,tagged2,tagged3,tagged4,publi;
 window.addEvent('domready', function(){
                 /*havana.start('left','-1000px'); */
 		
