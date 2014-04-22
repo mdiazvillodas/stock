@@ -55,7 +55,7 @@
       </div>
       <div class="row">
         <div class="label">
-          <span>Email</span>
+          <span>Email(usuario)</span>
         </div>
         <div class="campo">
           <input name="login" type="text" class="textfield" id="usuario" />
