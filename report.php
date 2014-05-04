@@ -1,3 +1,4 @@
 <div class="premium">
-    text
+    Caracter’stica solo para usuarios premium!
+    contactate con nosotros!
 </div>
